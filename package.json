@@ -1,0 +1,31 @@
+{
+  "name": "user-address-backend",
+  "version": "1.0.0",
+  "description": "Backend service for registering users and storing their addresses using Node.js and a relational database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "sqlite",
+    "backend",
+    "user",
+    "address"
+  ],
+  "author": "Ajay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
